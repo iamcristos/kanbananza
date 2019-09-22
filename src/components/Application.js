@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import Users from './Users';
-import CreateList from './CreateList';
-import Lists from './Lists';
+import Users from "./Users";
+import CreateList from "./CreateList";
+// import Lists from './Lists';
+import ListsContainer from "../containers/ListContainers";
 
 const Application = () => {
   return (
@@ -10,7 +11,8 @@ const Application = () => {
       <Users />
       <section>
         <CreateList />
-        <Lists />
+        {/* <Lists /> */}
+        <ListsContainer />
       </section>
     </main>
   );
